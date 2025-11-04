@@ -11,6 +11,7 @@ let age = 25;
 
 
 // String Interpolation (Template Literals) - best option
+//
 console.log(`My name is ${first_name} and I am ${age} years old.`);
 
 // Original (similar to c++)

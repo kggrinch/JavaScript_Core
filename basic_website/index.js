@@ -1,4 +1,5 @@
 // printing to console
+//
 console.log(`Hello`); // tab marks (best option) because you can add variables into the string easily
 console.log("I like pizza"); // Double quotes
 console.log('I like dr pepper'); // Single quotes
