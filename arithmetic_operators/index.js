@@ -147,9 +147,13 @@ console.log(max);
 console.log(min);
 
 
+// Random number generator
+const upper_range = 100;
+const lower_range = 50;
 
-
-
+// Without floor and upper_range/lower_range we will always get a random long decimal value
+let random = Math.floor(Math.random() * (upper_range - lower_range)) + lower_range;
+console.log(random);
 
 
 
